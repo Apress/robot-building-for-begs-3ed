@@ -1,0 +1,840 @@
+﻿; Robot Room Copper Connection printed circuit board
+ApplicationVersion=2.9.5587
+Authors=David Cook
+AutoViaHoleDiameter=0.029 in
+AutoViaPadDiameter=0.056 in
+BottomSilkscreen=False
+BottomSolderMask=True
+BottomSolderPaste=True
+ClearanceMinimum=0.01 in
+Contact=Example name and phone number
+CopperLayers=2
+EdgeClearanceMinimum=0.025 in
+FileVersion=3.0
+HoleDiameterMaximum=0.251 in
+HoleDiameterMinimum=0.014 in
+HolePadMarginMinumum=0.017 in
+ImagesInBackgroundSelectable=True
+InnerLayerLowerConnectionLabel=-
+InnerLayerUpperConnectionLabel=+
+LicenseNumber=1100
+NumberOfHolesMaximum=350
+OriginOffsetY=2.5 in
+PadClearanceDefault=0.015 in
+PartNumber=KSANDPCB
+PCBSpecialInstructions=Instructions here
+PlatedHoles=True
+PoursSelectable=True
+Revision=5.2
+SpaceBetweenHolesMinumum=0.021 in
+ThermalReliefThickness=0.012 in
+ThicknessMinimum=0.006 in
+TopSilkscreen=True
+TopSolderMask=True
+TopSolderPaste=True
+TraceClearanceDefault=0.015 in
+TraceClearanceMinimum=0.015 in
+Website=http://www.robotroom.com/Sandwich.html
+YAxisIsQuadrantI=True
+
+[Data]
+Type	Style	Layer	Id	GroupId	StartId	EndId	X	Y	Width	Height	Right	Bottom	Thickness	Angle	SweepAngle	Clearance	SchematicId	PartValue	Text	FontName	FontHeight	HoleDiameter	Data	DisplayOrder	ThirdPartyData
+Polygon	Outline	BoardEdge	1				0 in	0 in					0.006 in										(0 in,0 in)(3.8 in,0 in)(3.8 in,2.5 in)(0 in,2.5 in)		
+Rectangle	FillClearance	TopCopper	2				0.025 in	1.975 in	3.75 in	0.5 in															
+Ellipse		TopSilkscreen	5	144			1.75 in	1.4 in	0.025 in	0.025 in				90°	360°										
+Pad	SquareWithHole		6	144			1.75 in	1.5 in	0.056 in	0.056 in							"1"	"Out A"				0.029 in			
+Group			7														"R3"	"Photoresistor 0.3 in round"	"Mount facing down"						
+Pad			8				0.6 in	0.2 in	0.16 in	0.16 in									"Mounting hole
+4-40 tap or 2-56 clear"			0.125 in			
+Pad			9				0.6 in	1.8 in	0.16 in	0.16 in									"Mounting hole
+4-40 tap or 2-56 clear"			0.125 in			
+Pad			10				3.2 in	1.8 in	0.16 in	0.16 in									"Mounting hole
+4-40 tap or 2-56 clear"			0.125 in			
+Pad			11				3.2 in	0.2 in	0.16 in	0.16 in									"Mounting hole
+4-40 tap or 2-56 clear"			0.125 in			
+Pad			12	181			1.05 in	1.85 in	0.056 in	0.056 in												0.029 in			
+Pad			13	181			0.85 in	1.85 in	0.056 in	0.056 in												0.029 in			
+Polygon	Outline	TopSilkscreen	14	65			1.0375 in	0.175 in					0.012 in										(1.0375 in,0.425 in)(1.0375 in,0.175 in)(1.2625 in,0.175 in)(1.2625 in,0.425 in)		
+Pad			15	181			0.95 in	1.75 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	16				1.175 in	0.225 in																	
+Pad	Circular	BottomCopper	17				1.3 in	1.2 in	0.08 in	0.08 in															
+Pad			18	144			1.75 in	1.2 in	0.056 in	0.056 in							"8"	"Vcc"				0.029 in			
+Point		BottomCopper	19				2.3 in	0.95 in																	
+Pad			20	144			1.85 in	1.5 in	0.056 in	0.056 in							"2"	"In- A"				0.029 in			
+Pad			21	7			1.3 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad			22				0.65 in	2.05 in	0.065 in	0.065 in												0.035 in			
+Pad			23	7			1.5 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	24				0.65 in	2.05 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	25				1.4 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	26				0.55 in	2.05 in	0.08 in	0.08 in															
+Point		BottomCopper	27				3.5625 in	0.35 in																	
+Pad	Circular	BottomCopper	28				2.5 in	0.95 in	0.08 in	0.08 in															
+Point		BottomCopper	29				0.4 in	2 in																	
+Point		BottomCopper	30				1.4 in	1.45 in																	
+Point		BottomCopper	31				0.2375 in	2.1 in																	
+Point		BottomCopper	32				1.35 in	1.5 in																	
+Point		BottomCopper	33				2.35 in	0.6 in																	
+Pad	Circular	BottomCopper	34	7			1.3 in	2.25 in	0.08 in	0.08 in															
+Pad			35				1.65 in	0.8 in	0.065 in	0.065 in												0.035 in			
+Pad			36				3 in	0.8 in	0.065 in	0.065 in												0.035 in			
+Point		BottomCopper	37				1.025 in	1.25 in																	
+Pad	Circular	BottomCopper	38	7			1.5 in	2.25 in	0.08 in	0.08 in															
+Ellipse	Outline	TopSilkscreen	39	7			1.25 in	2.1 in	0.3 in	0.3 in			0.012 in	270°	360°										
+Group			40														"R4"	"Photoresistor 0.3 in round"	"Mount facing down"						
+Point		BottomCopper	41				1.75 in	2.075 in																	
+Point		BottomCopper	42				2.55 in	2.075 in																	
+Point		BottomCopper	43				1.75 in	0.95 in																	
+Pad	SquareWithHole		44	65			1.1 in	0.3 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			45	40			0.2 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad	Via		46				0.9 in	0.8 in	0.075 in	0.075 in								"Gate"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Pad			47				3.1 in	2.05 in	0.065 in	0.065 in												0.035 in			
+Pad	Circular	BottomCopper	48				3.5 in	1.125 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	49				3.5 in	0.25 in	0.08 in	0.08 in															
+Pad			50	40			0.4 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad			51	144			1.85 in	1.2 in	0.056 in	0.056 in							"7"	"Out B"				0.029 in			
+Pad			52	144			1.95 in	1.5 in	0.056 in	0.056 in							"3"	"In+ A"				0.029 in			
+Pad			53	144			1.95 in	1.2 in	0.056 in	0.056 in							"6"	"In- B"				0.029 in			
+Pad			54	144			2.05 in	1.5 in	0.056 in	0.056 in							"4"	"GND"				0.029 in			
+Point		BottomCopper	55				2.8 in	2.425 in																	
+Point		BottomCopper	56				0.9625 in	2.35 in																	
+Point		BottomCopper	57				0.7375 in	2.35 in																	
+Polygon	Outline	TopSilkscreen	58	181			0.7625 in	1.6571889 in					0.012 in										(1.1375 in,2.032189 in)(1.1375 in,1.6571889 in)(0.7625 in,1.657189 in)(0.7625 in,2.032189 in)		
+Ellipse	Outline	TopSilkscreen	59	61			0.1375 in	0.1375 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Line		TopSilkscreen	60	61			0.3478185 in	0.195637 in			0.3478185 in	0.305637 in	0.012 in												
+Group			61											180°			"LED13"	"Yellow LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		62	61			0.3 in	0.25 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			63	61			0.2 in	0.25 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Pad			64	65			1.2 in	0.3 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			65														"J1"	"Header 2 pin 22-23-2021"	"Molex KK header 2 pin"						
+Pad	Rectangular	BottomCopper	66				0.3 in	0.25 in	0.08 in	0.08 in															
+Pad			67				0.7 in	0.95 in	0.065 in	0.065 in												0.035 in			
+Point		BottomCopper	68				2 in	0.5 in																	
+Point		BottomCopper	69				1.25 in	1.5 in																	
+Pad	Circular	TopCopper	70				0.65 in	2.05 in	0.08 in	0.08 in															
+Point		BottomCopper	71				0.8 in	0.4 in																	
+Point		BottomCopper	72				2.125 in	1.15 in																	
+Pad	Circular	TopCopper	73				0.55 in	2.05 in	0.08 in	0.08 in															
+Point		BottomCopper	74				0.9 in	1.35 in																	
+Point		BottomCopper	75				1.875 in	2 in																	
+Rectangle		TopSilkscreen	76	65			1.1 in	0.175 in	0.1 in	0.025 in															
+Pad	Circular	BottomCopper	77				3.5 in	2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	78	40			0.2 in	2.25 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	79				2.6 in	1.2 in	0.08 in	0.08 in															
+Point		BottomCopper	80				1.2 in	0.95 in																	
+Pad	Rectangular	BottomCopper	81				2.3 in	0.8 in	0.08 in	0.08 in															
+Point		BottomCopper	82				0.35 in	2.1 in																	
+Point		BottomCopper	83				2.8 in	2.039 in																	
+Point		BottomCopper	84				1.1 in	0.6 in																	
+Pad	Circular	BottomCopper	85				2.5 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	86				3.25 in	1.45 in	0.08 in	0.08 in															
+Point		BottomCopper	87				1.8 in	1.575 in																	
+Pad	Circular	BottomCopper	88	40			0.4 in	2.25 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	89				1.95 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	90	181			1.05 in	1.85 in	0.08 in	0.08 in															
+Trace		BottomCopper	91		64	16							0.025 in												
+Pad	Circular	BottomCopper	92				3.25 in	0.95 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	93				1.925 in	0.8 in	0.08 in	0.08 in															
+Point		BottomCopper	94				0.75 in	1.95 in																	
+Pad	Circular	BottomCopper	95				2.2 in	0.375 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	96				0.4 in	0.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	97				2.3 in	0.375 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	98				0.55 in	1.45 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	99	181			0.95 in	1.75 in	0.08 in	0.08 in															
+Point		BottomCopper	100				0.625 in	1.2 in																	
+Pad			101				0.55 in	2.05 in	0.065 in	0.065 in												0.035 in			
+Ellipse	Outline	TopSilkscreen	102	40			0.15 in	2.1 in	0.3 in	0.3 in			0.012 in	270°	360°										
+Pad			104	144			2.05 in	1.2 in	0.056 in	0.056 in							"5"	"In+ B"				0.029 in			
+Line		TopSilkscreen	105	144			1.725 in	1.45 in			2.075 in	1.45 in	0.012 in												
+Pad	Circular	BottomCopper	106				2.4 in	0.375 in	0.08 in	0.08 in															
+Polygon	Outline	TopSilkscreen	107	118			2.6875 in	0.175 in					0.012 in										(2.6875 in,0.425 in)(2.6875 in,0.175 in)(2.9125 in,0.175 in)(2.9125 in,0.425 in)		
+Trace		BottomCopper	109		43	18							0.04 in												
+Ellipse	Outline	TopSilkscreen	110	114			0.1375 in	1.0125 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Line		TopSilkscreen	111	114			0.3478185 in	1.070637 in			0.3478185 in	1.180637 in	0.012 in												
+Pad	SquareWithHole		112	118			2.75 in	0.3 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			113	118			2.85 in	0.3 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			114											180°			"LED11"	"Yellow LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		115	114			0.3 in	1.125 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Line		TopSilkscreen	116	144			2.075 in	1.45 in			2.075 in	1.25 in	0.012 in												
+Line		TopSilkscreen	117	144			1.725 in	1.25 in			1.725 in	1.311 in	0.012 in												
+Group			118														"J2"	"Header 2 pin 22-23-2021"	"Molex KK header 2 pin"						
+Rectangle		TopSilkscreen	119	118			2.75 in	0.175 in	0.1 in	0.025 in															
+Group			120														"R6"	"Photoresistor 0.3 in round"	"Mount facing down"						
+Pad	Circular	BottomCopper	122	181			0.85 in	1.85 in	0.08 in	0.08 in															
+Pad			123	181			0.95 in	1.85 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	124	181			0.95 in	1.85 in	0.08 in	0.08 in															
+Pad			125	181			0.85 in	1.75 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	126				0.4 in	1.6 in																	
+Point		BottomCopper	127				3.05 in	2.425 in																	
+Pad	Circular	BottomCopper	128				2.4 in	0.225 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	129				2.3 in	0.225 in	0.08 in	0.08 in															
+Point		BottomCopper	130				2.3 in	2.125 in																	
+Pad	Circular	BottomCopper	132				2.2 in	0.225 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	133				1.75 in	0.3 in	0.08 in	0.08 in															
+Pad			134	120			2.3 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad			135	120			2.5 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	136	181			0.85 in	1.75 in	0.08 in	0.08 in															
+Pad			137	181			0.85 in	1.65 in	0.056 in	0.056 in							"1"					0.029 in			
+Line		TopSilkscreen	138	144			1.725 in	1.45 in			1.725 in	1.3875 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	139	144			1.6875 in	1.3125 in	0.075 in	0.075 in			0.012 in	270°	180°										
+Pad	Circular	BottomCopper	140				3 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	141				1.75 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	142				2.85 in	0.8 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	143				2.4 in	1.2 in	0.08 in	0.08 in															
+Group			144											90°			"IC1"	"LM393 DIP 8-pin"							
+Pad	Circular	BottomCopper	145				2.5 in	1.4 in	0.08 in	0.08 in															
+Line		TopSilkscreen	146	144			1.725 in	1.25 in			2.075 in	1.25 in	0.012 in												
+Polygon	Outline	TopSilkscreen	147	170			1.3875 in	0.675 in					0.012 in										(1.3875 in,0.925 in)(1.3875 in,0.675 in)(1.6125 in,0.675 in)(1.6125 in,0.925 in)		
+Pad	Circular	BottomCopper	148				1.85 in	0.3 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	149				1.95 in	0.3 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	150				1.2 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	153				3 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	154				2.85 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	155				1.85 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	156				0.9 in	0.8 in	0.08 in	0.08 in															
+Pad	SquareWithHole		157	170			1.45 in	0.8 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad	Circular	BottomCopper	158				1 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	159	181			0.85 in	1.65 in	0.08 in	0.08 in															
+Pad			160	181			0.95 in	1.65 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad	Circular	BottomCopper	161	181			0.95 in	1.65 in	0.08 in	0.08 in															
+Pad			162	181			1.05 in	1.65 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad	Circular	BottomCopper	163	181			1.05 in	1.65 in	0.08 in	0.08 in															
+Pad			164	181			1.05 in	1.75 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	165	181			1.05 in	1.75 in	0.08 in	0.08 in															
+Trace		BottomCopper	166	181	12	164							0.025 in												
+Trace		BottomCopper	167	181	164	162							0.025 in												
+Trace		BottomCopper	168	181	123	15							0.025 in												
+Pad			169	170			1.55 in	0.8 in	0.075 in	0.075 in							"2"					0.04 in			
+Group			170														"J3"	"Header 2 pin 22-23-2021"	"Molex KK header 2 pin"						
+Rectangle		TopSilkscreen	171	170			1.45 in	0.675 in	0.1 in	0.025 in															
+Trace		BottomCopper	173	181	15	160							0.025 in												
+Polygon	Outline	TopSilkscreen	174	219			1.8625 in	0.675 in					0.012 in										(1.8625 in,0.925 in)(1.8625 in,0.675 in)(2.0875 in,0.675 in)(2.0875 in,0.925 in)		
+Pad	SquareWithHole		175	219			1.925 in	0.8 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			176	219			2.025 in	0.8 in	0.075 in	0.075 in							"2"					0.04 in			
+Rectangle	Outline	TopSilkscreen	177	423			0.48125 in	1.025 in	0.1375 in	0.35 in			0.012 in												
+Pad			178	423			0.55 in	0.95 in	0.065 in	0.065 in							"1"					0.035 in			
+Trace		BottomCopper	179	181	13	125							0.025 in												
+Trace		BottomCopper	180	181	125	137							0.025 in												
+Group			181											180°			"R10"	"20 kΩ trimpot multiturn"	"Bourns 3296
+Universal hole pattern allows choice at insertion time"						
+Pad			182	114			0.2 in	1.125 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Trace		BottomCopper	183		6	204							0.025 in												
+Pad	Rectangular	BottomCopper	184				0.3 in	1.125 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	185	120			2.3 in	2.25 in	0.08 in	0.08 in															
+Rectangle	Outline	TopSilkscreen	186	181			0.7625 in	2.0322337 in	0.085 in	0.05 in			0.012 in												
+Pad	Circular	BottomCopper	187				1.65 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	188				0.2 in	2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	189				1.1 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	190				0.7 in	1.05 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	191	120			2.5 in	2.25 in	0.08 in	0.08 in															
+Ellipse	Outline	TopSilkscreen	192	120			2.25 in	2.1 in	0.3 in	0.3 in			0.012 in	270°	360°										
+Point		BottomCopper	194				1.9 in	1.3 in																	
+Point		BottomCopper	196				2.125 in	1.35 in																	
+Pad	Circular	BottomCopper	197				0.2 in	1.125 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	198				0.95 in	0.95 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	199				0.2 in	0.25 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	200				1.1 in	0.3 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	201				0.7 in	0.95 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	202				0.55 in	0.95 in	0.08 in	0.08 in															
+Point		BottomCopper	203				0.75 in	1.6 in																	
+Point		BottomCopper	204				1.4 in	1.75 in																	
+Point		BottomCopper	206				2.3 in	0.5 in																	
+Pad	Circular	BottomCopper	207				1.3 in	1.4 in	0.08 in	0.08 in															
+Point		BottomCopper	208				2.175 in	1.075 in																	
+Point		BottomCopper	209				1 in	1.35 in																	
+Pad	Circular	BottomCopper	210				2.3 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	211				2.4 in	1.4 in	0.08 in	0.08 in															
+Point		BottomCopper	212				3.525 in	0.15 in																	
+Pad	Circular	BottomCopper	213				2.9 in	2.05 in	0.08 in	0.08 in															
+Point		BottomCopper	214				1.05 in	0.225 in																	
+Point		BottomCopper	216				3.7 in	0.2 in																	
+Point		BottomCopper	218				2.975 in	2.35 in																	
+Group			219														"J4"	"Header 2 pin 22-23-2021"	"Molex KK header 2 pin"						
+Pad	Circular	BottomCopper	220				1.95 in	1.5 in	0.08 in	0.08 in															
+Group			221														"R5"	"Photoresistor 0.3 in round"	"Mount facing down"						
+Pad	Circular	BottomCopper	222				2.5 in	1.9 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	223				0.7 in	0.95 in	0.08 in	0.08 in															
+Point		BottomCopper	224				2.85 in	2.35 in																	
+Point		BottomCopper	225				2.025 in	0.6 in																	
+Pad			226	221			3.4 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	TopCopper	227				0.7 in	1.05 in	0.08 in	0.08 in															
+Point		BottomCopper	228				2.2 in	0.3 in																	
+Point		BottomCopper	229				2.5 in	2.125 in																	
+Pad			230	221			3.6 in	2.25 in	0.056 in	0.056 in												0.029 in			
+Pad			231				1.9 in	2.25 in	0.15 in	0.15 in									"Baffle mounting hole
+2-56 tap"			0.093 in			
+Pad	Circular	BottomCopper	232				0.95 in	1.45 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	233				1.85 in	1.5 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	234				2.05 in	1.2 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	235				2.05 in	1.5 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	236	221			3.4 in	2.25 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	237				1.3 in	1.9 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	238	221			3.6 in	2.25 in	0.08 in	0.08 in															
+Ellipse	Outline	TopSilkscreen	239	221			3.35 in	2.1 in	0.3 in	0.3 in			0.012 in	270°	360°										
+Trace		BottomCopper	240		18	485							0.04 in												
+Point		BottomCopper	241				0.9 in	0.7 in																	
+Point		BottomCopper	242				1.75 in	2 in																	
+Point		BottomCopper	244				0.825 in	2.175 in																	
+Pad	Rectangular	BottomCopper	247				2.2 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	248				3.6 in	2.25 in	0.08 in	0.08 in															
+Pad			249				2.2 in	0.225 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	251				2.1 in	1.125 in																	
+Pad	Circular	BottomCopper	252				1.5 in	1.9 in	0.08 in	0.08 in															
+Pad			253				2.3 in	0.225 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	TopCopper	254				3.4 in	2.25 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	255				2.5 in	2.25 in	0.08 in	0.08 in															
+Pad			256				2.4 in	0.225 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	257				3.35 in	0.9 in																	
+Pad	Circular	TopCopper	258				2.3 in	2.25 in	0.08 in	0.08 in															
+Pad			259				2.4 in	0.375 in	0.056 in	0.056 in												0.029 in			
+Pad			260				2.3 in	0.375 in	0.056 in	0.056 in												0.029 in			
+Pad			261				2.2 in	0.375 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	TopCopper	262				1.5 in	2.25 in	0.08 in	0.08 in															
+Point		BottomCopper	263				1.2 in	1.575 in																	
+Point		BottomCopper	264				2.4 in	0.3 in																	
+Pad	Circular	TopCopper	265				3.1 in	2.05 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	266				1.5 in	1.4 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	267				1.3 in	2.25 in	0.08 in	0.08 in															
+Point		TopCopper	268				2.35 in	0.3 in																	
+Point		BottomCopper	269				2.275 in	0.15 in																	
+Point		BottomCopper	270				2.175 in	1.275 in																	
+Point		BottomCopper	271				2.6 in	1.5 in																	
+Point		TopCopper	272				2.25 in	0.3 in																	
+Point		BottomCopper	273				2 in	2.039 in																	
+Point		BottomCopper	274				1.85 in	0.15 in																	
+Point		TopCopper	275				1.775 in	0.375 in																	
+Pad	Circular	BottomCopper	276				3.1 in	2.05 in	0.08 in	0.08 in															
+Pad			277				2.9 in	2.05 in	0.065 in	0.065 in												0.035 in			
+Pad	Circular	TopCopper	278				0.2 in	2.25 in	0.08 in	0.08 in															
+Point		BottomCopper	279				1.8 in	2.125 in																	
+Pad	Via		280				1 in	0.8 in	0.075 in	0.075 in								"Drain"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Pad	Via		281				1.1 in	0.8 in	0.075 in	0.075 in								"Source"	"If using a MOSFET for reverse-battery protection"			0.046 in			
+Point		BottomCopper	282				1 in	0.6 in																	
+Point		BottomCopper	283				1.1 in	0.95 in																	
+Pad	Circular	TopCopper	284				2.9 in	2.05 in	0.08 in	0.08 in															
+Point		BottomCopper	285				1.025 in	0.7 in																	
+Point		BottomCopper	286				1.175 in	0.7 in																	
+Pad	Circular	TopCopper	288				0.4 in	2.25 in	0.08 in	0.08 in															
+Point		BottomCopper	289				0.3 in	0.475 in																	
+Pad	Rectangular	BottomCopper	290				1.75 in	1.5 in	0.08 in	0.08 in															
+Point		BottomCopper	292				0.7 in	0.4 in																	
+Point		BottomCopper	294				1.025 in	0.15 in																	
+Pad			298				2.5 in	0.95 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	299				3.7 in	0.35 in																	
+Point		BottomCopper	300				2.4125 in	1.5 in																	
+Point		BottomCopper	301				3 in	1.5 in																	
+Point		BottomCopper	302				3.6 in	0.45 in																	
+Point		BottomCopper	304				3.35 in	1 in																	
+Pad	Circular	BottomCopper	305				2.5 in	0.5 in	0.08 in	0.08 in															
+Point		BottomCopper	306				2.125 in	1.45 in																	
+Pad	Circular	BottomCopper	307				0.4 in	0.95 in	0.08 in	0.08 in															
+Point		BottomCopper	308				2 in	2.039 in																	
+Point		BottomCopper	309				1.4 in	2.04 in																	
+Point		BottomCopper	310				1.4 in	1.875 in																	
+Pad			311				0.4 in	0.95 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	TopCopper	312				0.4 in	0.95 in	0.08 in	0.08 in															
+Pad			314				0.4 in	0.4 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	TopCopper	315				0.4 in	0.4 in	0.08 in	0.08 in															
+Pad			316				2.5 in	0.5 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	317				0.8 in	0.95 in																	
+Point		BottomCopper	318				3.65 in	0.15 in																	
+Pad	Circular	TopCopper	319				2.5 in	0.5 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	320				2.5 in	0.95 in	0.08 in	0.08 in															
+Pad			322	422			2 in	1.925 in	0.056 in	0.056 in												0.029 in			
+Pad			323	422			1.8 in	1.925 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	324				2.4 in	1.9875 in																	
+Point		BottomCopper	325				2.6 in	1.9875 in																	
+Point		BottomCopper	326				1.025 in	1.925 in																	
+Pad			327	422			1.9 in	1.825 in	0.056 in	0.056 in												0.029 in			
+Point		BottomCopper	328				1.5 in	1.575 in																	
+Rectangle		TopSilkscreen	329	219			1.925 in	0.675 in	0.1 in	0.025 in															
+Point		BottomCopper	330				1.95 in	1.075 in																	
+Point		BottomCopper	331				2.125 in	1.225 in																	
+Point		BottomCopper	332				2 in	1.125 in																	
+Pad			333				2.85 in	0.8 in	0.065 in	0.065 in												0.035 in			
+Pad			334				0.7 in	1.05 in	0.065 in	0.065 in												0.035 in			
+Polygon	Outline	TopSilkscreen	335	422			1.7125 in	1.7321889 in					0.012 in										(2.0875 in,2.107189 in)(2.0875 in,1.7321889 in)(1.7125 in,1.732189 in)(1.7125 in,2.107189 in)		
+Pad	Circular	BottomCopper	336	422			2 in	1.925 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	337	422			1.9 in	1.825 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	338	422			1.8 in	1.925 in	0.08 in	0.08 in															
+Pad			339	422			1.9 in	1.925 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	340	422			1.9 in	1.925 in	0.08 in	0.08 in															
+Pad			341	422			1.8 in	1.825 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	342	422			1.8 in	1.825 in	0.08 in	0.08 in															
+Pad			352	423			0.55 in	1.45 in	0.065 in	0.065 in							"2"					0.035 in			
+Ellipse	Outline	TopSilkscreen	353	357			0.1375 in	1.8875 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Line		TopSilkscreen	356	357			0.3478185 in	1.945637 in			0.3478185 in	2.055637 in	0.012 in												
+Group			357											180°			"LED7"	"Yellow LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		358	357			0.3 in	2 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			359	357			0.2 in	2 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Pad	Rectangular	BottomCopper	360				0.3 in	2 in	0.08 in	0.08 in															
+Rectangle	Outline	TopSilkscreen	361	406			0.875 in	0.55 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	362	406			0.875 in	0.55 in	0.05 in	0.1 in			0.012 in												
+Text		TopSilkscreen	363				1.9259999 in	0.5217949 in											"9V"	Anytime	0.068 in				
+Text		TopSilkscreen	364				1.5260001 in	0.075 in											"Light/Dark Line"	Anytime	0.068 in				
+Text		TopSilkscreen	365				1.5 in	0.2 in											"DPDT"	Anytime	0.051 in				
+Polygon	Outline	TopSilkscreen	366	388			2.2375 in	0.675 in					0.012 in										(2.2375 in,0.925 in)(2.2375 in,0.675 in)(2.4625 in,0.675 in)(2.4625 in,0.925 in)		
+Pad	SquareWithHole		367	388			2.3 in	0.8 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			368	388			2.4 in	0.8 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			369	422			1.8 in	1.725 in	0.056 in	0.056 in							"1"					0.029 in			
+Pad	Circular	BottomCopper	370	422			1.8 in	1.725 in	0.08 in	0.08 in															
+Pad			371	422			1.9 in	1.725 in	0.056 in	0.056 in							"2"	"Wiper"				0.029 in			
+Pad	Circular	BottomCopper	372	422			1.9 in	1.725 in	0.08 in	0.08 in															
+Pad			373	422			2 in	1.725 in	0.056 in	0.056 in							"3"					0.029 in			
+Pad	Circular	BottomCopper	374	422			2 in	1.725 in	0.08 in	0.08 in															
+Pad			375	422			2 in	1.825 in	0.056 in	0.056 in												0.029 in			
+Pad	Circular	BottomCopper	376	422			2 in	1.825 in	0.08 in	0.08 in															
+Line		TopSilkscreen	387				2.85 in	2 in			2.85 in	2.1 in	0.006 in												
+Group			388														"J5"	"Header 2 pin 22-23-2021"	"Molex KK header 2 pin"						
+Rectangle		TopSilkscreen	389	388			2.3 in	0.675 in	0.1 in	0.025 in															
+Line		TopSilkscreen	390	423			0.55 in	1 in			0.55 in	1.025 in	0.012 in												
+Trace		BottomCopper	391		368	142							0.04 in												
+Trace		BottomCopper	392		142	333							0.04 in												
+Pad	Circular	BottomCopper	393				2.025 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	394				2.4 in	0.8 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	395				3.6 in	0.25 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	396				3.6 in	1.125 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	397				3.6 in	2 in	0.08 in	0.08 in															
+Line		TopSilkscreen	398				3.15 in	2 in			3.15 in	2.1 in	0.006 in												
+Line		TopSilkscreen	399				2.8 in	0.75 in			3.05 in	0.75 in	0.006 in												
+Group			406														"D1"	"1N5817 DO-41"	"Schottky diode 20V"						
+Pad	SquareWithHole		407	406			0.8 in	0.6 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			408	406			1.2 in	0.6 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Line		TopSilkscreen	409	406			0.85 in	0.6 in			0.875 in	0.6 in	0.012 in												
+Line		TopSilkscreen	410	406			1.125 in	0.6 in			1.15 in	0.6 in	0.012 in												
+Line		TopSilkscreen	411	406			0.98 in	0.6 in			1.055 in	0.6 in	0.01 in												
+Line		TopSilkscreen	412	406			0.98 in	0.6 in			1.005 in	0.575 in	0.01 in												
+Line		TopSilkscreen	413	406			0.98 in	0.6 in			1.005 in	0.625 in	0.01 in												
+Line		TopSilkscreen	414	406			0.98 in	0.575 in			0.98 in	0.625 in	0.01 in												
+Line		TopSilkscreen	415	423			0.55 in	1.375 in			0.55 in	1.4 in	0.012 in												
+Trace		BottomCopper	416	422	322	375							0.025 in												
+Trace		BottomCopper	417	422	375	373							0.025 in												
+Trace		BottomCopper	418	422	339	327							0.025 in												
+Trace		BottomCopper	419	422	327	371							0.025 in												
+Trace		BottomCopper	420	422	323	341							0.025 in												
+Trace		BottomCopper	421	422	341	369							0.025 in												
+Group			422											180°			"R2"	"20 kΩ trimpot multiturn"	"Bourns 3296
+Universal hole pattern allows choice at insertion time"						
+Group			423											270°			"R7"	"150 Ω"	"0.5 in lead spacing"						
+Rectangle	Outline	TopSilkscreen	424	422			1.7125 in	2.1072337 in	0.085 in	0.05 in			0.012 in												
+Trace		BottomCopper	426		178	100							0.03 in												
+Rectangle	Outline	TopSilkscreen	428	458			0.88125 in	1.025 in	0.1375 in	0.35 in			0.012 in												
+Pad			429	458			0.95 in	0.95 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			430	458			0.95 in	1.45 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	431	458			0.95 in	1 in			0.95 in	1.025 in	0.012 in												
+Line		TopSilkscreen	439				0.5 in	2 in			0.7 in	2 in	0.006 in												
+Line		TopSilkscreen	457	458			0.95 in	1.375 in			0.95 in	1.4 in	0.012 in												
+Group			458											270°			"R9"	"150 Ω"	"0.5 in lead spacing"						
+Point		BottomCopper	459				1.775 in	1.325 in																	
+Trace		BottomCopper	460		459	194							0.025 in												
+Rectangle	Outline	TopSilkscreen	461	479			1.23125 in	1.475 in	0.1375 in	0.35 in			0.012 in												
+Pad			462	479			1.3 in	1.4 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			463	479			1.3 in	1.9 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	477	479			1.3 in	1.45 in			1.3 in	1.475 in	0.012 in												
+Line		TopSilkscreen	478	479			1.3 in	1.825 in			1.3 in	1.85 in	0.012 in												
+Group			479											270°			"R17"	"1 kΩ"							
+Rectangle	Outline	TopSilkscreen	484	489			1.43125 in	1.475 in	0.1375 in	0.35 in			0.012 in												
+Pad			485	489			1.5 in	1.4 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			486	489			1.5 in	1.9 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	487	489			1.5 in	1.45 in			1.5 in	1.475 in	0.012 in												
+Line		TopSilkscreen	488	489			1.5 in	1.825 in			1.5 in	1.85 in	0.012 in												
+Group			489											270°			"R1"	"1 kΩ"							
+Rectangle	Outline	TopSilkscreen	492	497			2.43125 in	1.475 in	0.1375 in	0.35 in			0.012 in												
+Pad			493	497			2.5 in	1.4 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			494	497			2.5 in	1.9 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	495	497			2.5 in	1.45 in			2.5 in	1.475 in	0.012 in												
+Line		TopSilkscreen	496	497			2.5 in	1.825 in			2.5 in	1.85 in	0.012 in												
+Group			497											270°			"R18"	"1 kΩ"							
+Rectangle	Outline	TopSilkscreen	500	505			3.18125 in	1.025 in	0.1375 in	0.35 in			0.012 in												
+Pad			501	505			3.25 in	0.95 in	0.065 in	0.065 in							"1"					0.035 in			
+Pad			502	505			3.25 in	1.45 in	0.065 in	0.065 in							"2"					0.035 in			
+Line		TopSilkscreen	503	505			3.25 in	1 in			3.25 in	1.025 in	0.012 in												
+Line		TopSilkscreen	504	505			3.25 in	1.375 in			3.25 in	1.4 in	0.012 in												
+Group			505											270°			"R8"	"150 Ω"	"0.5 in lead spacing"						
+Ellipse	Outline	TopSilkscreen	506				3.553459 in	0.6206055 in	0.06 in	0.06 in			0.006 in	270°	360°										
+Polygon	Outline	TopSilkscreen	511	516			1.6875 in	0.175 in					0.012 in										(1.6875 in,0.425 in)(1.6875 in,0.175 in)(2.1125 in,0.175 in)(2.1125 in,0.425 in)		
+Pad	SquareWithHole		512	516			1.75 in	0.3 in	0.075 in	0.075 in							"1"					0.04 in			
+Pad			513	516			1.85 in	0.3 in	0.075 in	0.075 in							"2"					0.04 in			
+Pad			514	516			1.95 in	0.3 in	0.075 in	0.075 in							"3"					0.04 in			
+Pad			515	516			2.05 in	0.3 in	0.075 in	0.075 in							"4"					0.04 in			
+Group			516														"J6"	"Header 4 pin 22-23-2041"	"Molex KK header 4 pin"						
+Rectangle		TopSilkscreen	517	516			1.75 in	0.175 in	0.3 in	0.025 in															
+Trace		TopCopper	526		275	512							0.025 in												
+Ellipse	Outline	TopSilkscreen	527	529			2.8375 in	2.1375 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Line		TopSilkscreen	528	529			3.0478185 in	2.195637 in			3.0478185 in	2.305637 in	0.012 in												
+Group			529											180°			"LED10"	"White LED T1 3/4 in, 5 mm"	"Mount facing down"						
+Pad	SquareWithHole		530	529			3 in	2.25 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			531	529			2.9 in	2.25 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Trace		BottomCopper	534		530	218							0.04 in												
+Trace		BottomCopper	536		226	127							0.025 in												
+Ellipse	Outline	TopSilkscreen	539	541			0.7375 in	2.1375 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Line		TopSilkscreen	540	541			0.9478185 in	2.195637 in			0.9478185 in	2.305637 in	0.012 in												
+Group			541											180°			"LED9"	"White LED T1 3/4 in, 5 mm"	"Mount facing down"						
+Pad	SquareWithHole		542	541			0.9 in	2.25 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			543	541			0.8 in	2.25 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Pad	Circular	TopCopper	544				2.9 in	2.25 in	0.08 in	0.08 in															
+Pad	Circular	TopCopper	545				0.8 in	2.25 in	0.08 in	0.08 in															
+Pad	Rectangular	TopCopper	546				0.9 in	2.25 in	0.08 in	0.08 in															
+Pad	Rectangular	TopCopper	548				3 in	2.25 in	0.08 in	0.08 in															
+Trace		BottomCopper	550		408	84							0.04 in												
+Rectangle	Outline	TopSilkscreen	551	553			2.675 in	0.55 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	552	553			2.675 in	0.55 in	0.05 in	0.1 in			0.012 in												
+Group			553														"D2"	"1N5817 DO-41"	"Schottky diode 20V"						
+Pad	SquareWithHole		554	553			2.6 in	0.6 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			555	553			3 in	0.6 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Line		TopSilkscreen	566	553			2.65 in	0.6 in			2.675 in	0.6 in	0.012 in												
+Line		TopSilkscreen	567	553			2.925 in	0.6 in			2.95 in	0.6 in	0.012 in												
+Line		TopSilkscreen	568	553			2.78 in	0.6 in			2.855 in	0.6 in	0.01 in												
+Line		TopSilkscreen	569	553			2.78 in	0.6 in			2.805 in	0.575 in	0.01 in												
+Line		TopSilkscreen	570	553			2.78 in	0.6 in			2.805 in	0.625 in	0.01 in												
+Line		TopSilkscreen	571	553			2.78 in	0.575 in			2.78 in	0.625 in	0.01 in												
+Trace		BottomCopper	574		555	36							0.04 in												
+Text		TopSilkscreen	579				1.8050001 in	0.6 in											"Battery"	Anytime	0.068 in				
+Text		TopSilkscreen	580				0.8 in	0.675 in											"D3 1N5817"	Anytime	0.068 in				
+Text		TopSilkscreen	581				0.8064103 in	1.375 in						90°					"R9 150Ω"	Anytime	0.068 in				
+Text		TopSilkscreen	582				1.3745 in	0.5217949 in											"Power"	Anytime	0.068 in				
+Text		TopSilkscreen	583				1.3554999 in	0.6 in											"Switch"	Anytime	0.068 in				
+Text	Bold	TopSilkscreen	584				1.8125 in	0.775 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	585				2.1046296 in	0.775 in											"-"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	586				2.1884259 in	0.775 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	587				0.975 in	0.275 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	588				2.9375 in	0.275 in											"-"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	589				2.4819444 in	0.775 in											"-"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	590				2.6375 in	0.275 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	591				1.3 in	0.275 in											"-"	Anytime	0.051 in				
+Text		TopSilkscreen	592				3.4236594 in	1.8057692 in											"Green"	Anytime	0.068 in				
+Text		TopSilkscreen	593				3.1064103 in	1.375 in						90°					"R8 150Ω"	Anytime	0.068 in				
+Text		TopSilkscreen	594				0.4064103 in	1.375 in						90°					"R7 150Ω"	Anytime	0.068 in				
+Text		TopSilkscreen	595				2.6717949 in	1.2307692 in											"Building"	Anytime	0.068 in				
+Ellipse	Outline	BottomCopper	596				0.35 in	0.9 in	0.1 in	0.1 in			0.006 in	180°	180°										
+Text		TopSilkscreen	597				2.6717949 in	1.3121795 in											"for"	Anytime	0.068 in				
+Text		TopSilkscreen	598				2.6717949 in	1.3935897 in											"Beginners"	Anytime	0.068 in				
+Text		TopSilkscreen	599				2.875 in	0.875 in											"TP-"	Anytime	0.068 in				
+Text		TopSilkscreen	600				2.25 in	0.5217949 in											"Tube"	Anytime	0.068 in				
+Text		TopSilkscreen	601				1.103 in	1.0371795 in											"Q7 2907A"	Anytime	0.068 in				
+Text		TopSilkscreen	602				3.4491591 in	1.7307692 in											"LED8"	Anytime	0.068 in				
+Text		BottomCopper	604				3.025 in	2.15 in											"LED10"	Anytime	0.068 in				
+Text		TopSilkscreen	606				2.3030001 in	1.0307692 in											"Q8 2907A"	Anytime	0.068 in				
+Text		TopSilkscreen	607				1.031 in	0.025 in											"Right"	Anytime	0.068 in				
+Text		TopSilkscreen	608				2.7065 in	0.025 in											"Left"	Anytime	0.068 in				
+Text		TopSilkscreen	609				1.0055 in	0.1 in											"Motor1"	Anytime	0.068 in				
+Text		TopSilkscreen	610				2.6555 in	0.1 in											"Motor2"	Anytime	0.068 in				
+Text		TopSilkscreen	613				2.2565001 in	0.6 in											"LEDs"	Anytime	0.068 in				
+Text		TopSilkscreen	614				0.6410256 in	1.125 in											"TP+"	Anytime	0.068 in				
+Text		TopSilkscreen	615				0.1 in	0.475 in											"Yellow"	Anytime	0.068 in				
+Text		TopSilkscreen	616				0.075 in	1.35 in											"Yellow"	Anytime	0.068 in				
+Text		TopSilkscreen	617				0.1 in	1.8 in											"Yellow"	Anytime	0.068 in				
+Text		TopSilkscreen	618				0.1 in	1.275 in											"LED11"	Anytime	0.068 in				
+Text		BottomCopper	619				0.525 in	2.175 in											"LED9"	Anytime	0.068 in				
+Text		TopSilkscreen	620				0.125 in	0.4 in											"LED13"	Anytime	0.068 in				
+Text		TopSilkscreen	621				0.15 in	1.725 in											"LED7"	Anytime	0.068 in				
+Text		TopSilkscreen	622				3.4236594 in	0.475 in											"Green"	Anytime	0.068 in				
+Text		TopSilkscreen	623				3.4236594 in	0.4 in											"LED14"	Anytime	0.068 in				
+Text		TopSilkscreen	624				3.4236594 in	1.35 in											"Green"	Anytime	0.068 in				
+Text		TopSilkscreen	625				3.4236594 in	1.275 in											"LED12"	Anytime	0.068 in				
+Text		TopSilkscreen	626				0.5371795 in	1.925 in											"TP1"	Anytime	0.068 in				
+Text		TopSilkscreen	627				2.9275641 in	1.925 in											"TP2"	Anytime	0.068 in				
+Text		TopSilkscreen	628				1.425 in	0.275 in											"center"	Anytime	0.051 in				
+Text		TopSilkscreen	629				2.35 in	1.8125 in						90°					"R18 1kΩ"	Anytime	0.068 in				
+Text		TopSilkscreen	630				2.5789999 in	0.475 in											"D2 1N5817"	Anytime	0.068 in				
+Text		TopSilkscreen	631				1.5935897 in	1.7967949 in						90°					"R1 1kΩ"	Anytime	0.068 in				
+Text		TopSilkscreen	632				1.1621795 in	1.8198718 in						90°					"R17 1kΩ"	Anytime	0.068 in				
+Text		TopSilkscreen	633				0.8 in	0.475 in											"D1 1N5817"	Anytime	0.068 in				
+Text		TopSilkscreen	634				1.7299999 in	1.6314103 in											"R2 20kΩ"	Anytime	0.068 in				
+Text		TopSilkscreen	635				1.6789999 in	1.0967949 in											"IC1 LM393"	Anytime	0.068 in				
+Text		TopSilkscreen	636				0.7525641 in	1.5467949 in											"R10 20kΩ"	Anytime	0.068 in				
+Text		BottomCopper	637				0.1 in	2.4 in											"R4 Photo"	Anytime	0.068 in				
+Text		BottomCopper	638				1.175 in	2.4 in											"R3 Photo"	Anytime	0.068 in				
+Text		BottomCopper	639				2.175 in	2.4 in											"R6 Photo"	Anytime	0.068 in				
+Text		BottomCopper	640				3.25 in	2.4 in											"R5 Photo"	Anytime	0.068 in				
+Text		TopSilkscreen	641				2.675 in	1.4935897 in											"Sandwich"	Anytime	0.068 in				
+Text		TopSilkscreen	642				2.675 in	1.575 in											"Line-Following"	Anytime	0.068 in				
+Text		TopSilkscreen	644				2.675 in	1.6564102 in											"Robot"	Anytime	0.068 in				
+Text		TopSilkscreen	645				2.6717949 in	1.149359 in											"Robot"	Anytime	0.068 in				
+Text		TopSilkscreen	647				3.1875 in	0.775 in											"David Cook"	Anytime	0.051 in				
+Text		TopSilkscreen	648				3.1875 in	0.7 in											"2001-2015"	Anytime	0.051 in				
+Text		TopSilkscreen	649				3.1875 in	0.625 in											"Copyright c"	Anytime	0.051 in				
+Text		BottomCopper	653				1.6449999 in	0.05 in											"robotroom.com"	Anytime	0.051 in				
+Text		TopSilkscreen	654				2.2125 in	1.2375 in											"C2"	Anytime	0.051 in				
+Line		TopSilkscreen	655				0.5 in	2.1 in			0.7 in	2.1 in	0.006 in												
+Text		TopSilkscreen	657				0.225 in	0.85 in						90°					">=100µF"	Anytime	0.051 in				
+Text		TopSilkscreen	660				0.175 in	0.85 in						90°					"C1 16WV"	Anytime	0.051 in				
+Line		TopSilkscreen	664				0.7 in	2 in			0.7 in	2.1 in	0.006 in												
+Line		TopSilkscreen	665				0.5 in	2.1 in			0.5 in	2 in	0.006 in												
+Text		TopSilkscreen	666				1.525 in	0.35 in											"off"	Anytime	0.051 in				
+Text		TopSilkscreen	667				0.883 in	0.87 in											"G"	Anytime	0.051 in				
+Text		TopSilkscreen	668				0.983 in	0.87 in											"D"	Anytime	0.051 in				
+Text		TopSilkscreen	669				1.083 in	0.867 in											"S"	Anytime	0.051 in				
+Ellipse	Outline	BottomCopper	670				2.85 in	2 in	0.1 in	0.1 in			0.006 in	90°	180°										
+Ellipse	Outline	BottomCopper	671				3.05 in	2 in	0.1 in	0.1 in			0.006 in	270°	180°										
+Ellipse	Outline	BottomCopper	673				0.35 in	0.35 in	0.1 in	0.1 in			0.006 in	0°	180°										
+Line		TopSilkscreen	674				2.85 in	2.1 in			3.15 in	2.1 in	0.006 in												
+Line		TopSilkscreen	675				3.15 in	2 in			2.85 in	2 in	0.006 in												
+Line		TopSilkscreen	676				2.8 in	0.85 in			3.05 in	0.85 in	0.006 in												
+Line		TopSilkscreen	677				3.05 in	0.75 in			3.05 in	0.85 in	0.006 in												
+Line		TopSilkscreen	678				2.8 in	0.85 in			2.8 in	0.75 in	0.006 in												
+Line		TopSilkscreen	679				0.65 in	0.9 in			0.75 in	0.9 in	0.006 in												
+Line		TopSilkscreen	680				0.75 in	0.9 in			0.75 in	1.1 in	0.006 in												
+Line		TopSilkscreen	681				0.75 in	1.1 in			0.65 in	1.1 in	0.006 in												
+Line		TopSilkscreen	682				0.65 in	1.1 in			0.65 in	0.9 in	0.006 in												
+Ellipse	Outline	BottomCopper	683				2.45 in	0.45 in	0.1 in	0.1 in			0.006 in	0°	180°										
+Ellipse	Outline	BottomCopper	684				2.45 in	0.9 in	0.1 in	0.1 in			0.006 in	180°	180°										
+Trace		BottomCopper	688		695	157							0.04 in												
+Trace		BottomCopper	690		694	317							0.04 in												
+Rectangle	Outline	TopSilkscreen	691	693			0.875 in	0.75 in	0.25 in	0.1 in			0.012 in												
+Rectangle	Outline	TopSilkscreen	692	693			0.875 in	0.75 in	0.05 in	0.1 in			0.012 in												
+Group			693														"D3"	"1N5817 DO-41"	"Schottky diode 20V"						
+Pad	SquareWithHole		694	693			0.8 in	0.8 in	0.088 in	0.088 in							"1"	"Cathode"				0.04 in			
+Pad			695	693			1.2 in	0.8 in	0.088 in	0.088 in							"2"	"Anode"				0.04 in			
+Trace		BottomCopper	696		27	555							0.04 in												
+Trace		BottomCopper	697		225	408							0.04 in												
+Trace		BottomCopper	698		67	201							0.04 in												
+Trace		BottomCopper	699		80	1077							0.04 in												
+Trace		BottomCopper	700		892	302							0.025 in												
+Trace		BottomCopper	701		512	64							0.025 in												
+Trace		BottomCopper	702		169	35							0.04 in												
+Trace		BottomCopper	703		229	130							0.04 in												
+Trace		BottomCopper	704		283	317							0.04 in												
+Trace		BottomCopper	705		339	75							0.02 in												
+Trace		BottomCopper	706		16	214							0.025 in												
+Trace		BottomCopper	707		209	74							0.025 in												
+Trace		BottomCopper	708		49	212							0.025 in												
+Trace		BottomCopper	709		328	459							0.025 in												
+Trace		BottomCopper	710		31	82							0.025 in												
+Trace		BottomCopper	715		44	84							0.04 in												
+Trace		BottomCopper	716		277	83							0.02 in												
+Trace		BottomCopper	717		282	84							0.04 in												
+Trace		BottomCopper	718		113	142							0.04 in												
+Trace		BottomCopper	720		26	22							0.025 in												
+Trace		BottomCopper	721		20	87							0.02 in												
+Trace		BottomCopper	722		94	203							0.025 in												
+Trace		BottomCopper	723		194	332							0.025 in												
+Trace		BottomCopper	724		203	74							0.025 in												
+Trace		BottomCopper	725		196	270							0.025 in												
+Trace		BottomCopper	726		270	208							0.025 in												
+Trace		BottomCopper	727		279	130							0.04 in												
+Trace		BottomCopper	728		212	318							0.025 in												
+Trace		BottomCopper	729		301	530							0.04 in												
+Trace		BottomCopper	730		75	242							0.02 in												
+Trace		BottomCopper	731		218	224							0.04 in												
+Trace		BottomCopper	733		224	229							0.04 in												
+Trace		BottomCopper	734		176	225							0.04 in												
+Trace		BottomCopper	735		71	214							0.025 in												
+Trace		BottomCopper	736		216	299							0.025 in												
+Trace		BottomCopper	737		134	130							0.04 in												
+Trace		BottomCopper	738		249	228							0.03 in												
+Trace		BottomCopper	739		209	263							0.025 in												
+Trace		BottomCopper	740		63	115							0.025 in												
+Trace		BottomCopper	741		182	358							0.025 in												
+Trace		BottomCopper	742		893	920							0.025 in												
+Trace		BottomCopper	743		175	35							0.04 in												
+Trace		BottomCopper	744		19	43							0.04 in												
+Trace		BottomCopper	745		333	36							0.04 in												
+Trace		BottomCopper	746		554	984							0.03 in												
+Point		BottomCopper	748				2.6 in	0.95 in																	
+Trace		BottomCopper	750		27	881							0.04 in												
+Trace		BottomCopper	751		352	126							0.025 in												
+Trace		BottomCopper	752		29	82							0.025 in												
+Trace		BottomCopper	753		31	359							0.025 in												
+Trace		BottomCopper	754		30	32							0.03 in												
+Trace		BottomCopper	755		32	69							0.03 in												
+Trace		BottomCopper	756		33	368							0.04 in												
+Trace		BottomCopper	758		36	1073							0.04 in												
+Trace		BottomCopper	761		542	41							0.02 in												
+Trace		BottomCopper	762		41	42							0.02 in												
+Trace		BottomCopper	763		42	531							0.02 in												
+Trace		BottomCopper	764		242	486							0.02 in												
+Trace		BottomCopper	765		463	204							0.025 in												
+Line		TopSilkscreen	767	693			0.85 in	0.8 in			0.875 in	0.8 in	0.012 in												
+Trace		BottomCopper	769		1078	462							0.025 in												
+Trace		BottomCopper	770		135	55							0.025 in												
+Trace		BottomCopper	772		56	21							0.025 in												
+Trace		BottomCopper	773		56	57							0.025 in												
+Trace		BottomCopper	774		69	37							0.03 in												
+Trace		BottomCopper	775		260	206							0.03 in												
+Trace		BottomCopper	776		430	123							0.025 in												
+Trace		BottomCopper	777		259	264							0.03 in												
+Trace		BottomCopper	778		253	269							0.03 in												
+Trace		TopCopper	780		256	268							0.025 in												
+Trace		BottomCopper	781		514	68							0.03 in												
+Trace		BottomCopper	782		45	26							0.025 in												
+Trace		TopCopper	783		272	268							0.025 in												
+Trace		BottomCopper	784		68	206							0.03 in												
+Trace		BottomCopper	785		19	367							0.04 in												
+Trace		TopCopper	786		272	261							0.025 in												
+Trace		BottomCopper	787		269	274							0.03 in												
+Trace		BottomCopper	788		286	695							0.04 in												
+Trace		BottomCopper	789		331	369							0.025 in												
+Trace		BottomCopper	792		308	273							0.02 in												
+Trace		TopCopper	793		261	275							0.025 in												
+Trace		BottomCopper	794		274	513							0.03 in												
+Trace		BottomCopper	797		12	326							0.025 in												
+Trace		BottomCopper	798		23	279							0.04 in												
+Trace		BottomCopper	801		307	178							0.03 in												
+Line		TopSilkscreen	802	693			1.125 in	0.8 in			1.15 in	0.8 in	0.012 in												
+Trace		BottomCopper	803		79	748							0.025 in												
+Trace		TopCopper	804		47	277							0.025 in												
+Trace		BottomCopper	805		67	317							0.04 in												
+Trace		BottomCopper	806		46	241							0.04 in												
+Trace		BottomCopper	807		206	305							0.03 in												
+Trace		BottomCopper	808		30	1079							0.03 in												
+Trace		BottomCopper	809		80	283							0.04 in												
+Trace		BottomCopper	810		1091	493							0.025 in												
+Trace		BottomCopper	811		281	283							0.04 in												
+Trace		BottomCopper	812		37	100							0.03 in												
+Trace		BottomCopper	814		280	285							0.04 in												
+Trace		BottomCopper	815		29	126							0.025 in												
+Trace		BottomCopper	817		55	127							0.025 in												
+Trace		BottomCopper	818		285	286							0.04 in												
+Line		TopSilkscreen	819	693			0.98 in	0.8 in			1.055 in	0.8 in	0.01 in												
+Trace		BottomCopper	820		50	57							0.025 in												
+Trace		BottomCopper	821		501	748							0.03 in												
+Trace		BottomCopper	822		273	83							0.02 in												
+Trace		BottomCopper	823		94	22							0.025 in												
+Trace		BottomCopper	825		407	71							0.025 in												
+Trace		BottomCopper	826		62	289							0.04 in												
+Trace		BottomCopper	827		96	292							0.03 in												
+Trace		BottomCopper	828		292	294							0.03 in												
+Trace		BottomCopper	829		294	274							0.03 in												
+Trace		BottomCopper	830		33	225							0.04 in												
+Trace		BottomCopper	838		300	271							0.04 in												
+Trace		BottomCopper	839		299	302							0.025 in												
+Trace		BottomCopper	840		257	304							0.04 in												
+Trace		BottomCopper	841		241	1005							0.04 in												
+Line		TopSilkscreen	842	693			0.98 in	0.8 in			1.005 in	0.775 in	0.01 in												
+Trace		BottomCopper	843		282	241							0.04 in												
+Trace		BottomCopper	844		304	301							0.04 in												
+Trace		TopCopper	845		316	298							0.03 in												
+Trace		BottomCopper	846		196	306							0.025 in												
+Trace		TopCopper	848		314	1015							0.03 in												
+Trace		BottomCopper	849		322	273							0.02 in												
+Trace		BottomCopper	850		308	309							0.02 in												
+Trace		BottomCopper	851		309	310							0.02 in												
+Trace		BottomCopper	852		310	994							0.02 in												
+Line		TopSilkscreen	853	693			0.98 in	0.8 in			1.005 in	0.825 in	0.01 in												
+Trace		BottomCopper	854		216	318							0.025 in												
+Trace		BottomCopper	855		47	987							0.025 in												
+Trace		BottomCopper	856		54	324							0.04 in												
+Line		TopSilkscreen	857	693			0.98 in	0.775 in			0.98 in	0.825 in	0.01 in												
+Trace		BottomCopper	858		271	325							0.04 in												
+Trace		BottomCopper	859		325	324							0.04 in												
+Trace		BottomCopper	860		301	271							0.04 in												
+Trace		BottomCopper	862		543	244							0.025 in												
+Trace		BottomCopper	864		244	326							0.025 in												
+Trace		BottomCopper	867		328	263							0.025 in												
+Trace		BottomCopper	868		332	251							0.025 in												
+Trace		BottomCopper	869		51	330							0.025 in												
+Trace		BottomCopper	870		330	208							0.025 in												
+Trace		BottomCopper	872		306	494							0.025 in												
+Trace		BottomCopper	873		72	251							0.025 in												
+Ellipse	Outline	TopSilkscreen	874	880			3.4375 in	0.1375 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Trace		BottomCopper	875		20	104							0.025 in												
+Line		TopSilkscreen	876	880			3.6478185 in	0.195637 in			3.6478185 in	0.305637 in	0.012 in												
+Trace		BottomCopper	877		331	72							0.025 in												
+Trace		BottomCopper	878		80	43							0.04 in												
+Trace		BottomCopper	879		334	67							0.04 in												
+Group			880											180°			"LED14"	"Green LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		881	880			3.6 in	0.25 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			882	880			3.5 in	0.25 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Text		TopSilkscreen	884				1.39 in	1.263 in											"C"	Anytime	0.051 in				
+Text		TopSilkscreen	885				1.29 in	1.263 in											"B"	Anytime	0.051 in				
+Ellipse	Outline	TopSilkscreen	886	891			3.4375 in	1.0125 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Text		TopSilkscreen	887				1.19 in	1.263 in											"E"	Anytime	0.051 in				
+Line		TopSilkscreen	888	891			3.6478185 in	1.070637 in			3.6478185 in	1.180637 in	0.012 in												
+Text		TopSilkscreen	889				2.59 in	1.263 in											"C"	Anytime	0.051 in				
+Group			891											180°			"LED12"	"Green LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		892	891			3.6 in	1.125 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			893	891			3.5 in	1.125 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Text		TopSilkscreen	897				2.49 in	1.263 in											"B"	Anytime	0.051 in				
+Text		TopSilkscreen	898				2.39 in	1.263 in											"E"	Anytime	0.051 in				
+Text		TopSilkscreen	902				2.1625 in	1.2875 in											"0.1µF"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	903				3.4 in	0.225 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	904				3.4 in	1.1 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	905				3.4 in	1.975 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	908				2.8 in	2.225 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	909				0.7 in	2.225 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	910				0.1 in	1.975 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	911				0.1 in	1.1 in											"+"	Anytime	0.051 in				
+Text	Bold	TopSilkscreen	912				0.1 in	0.225 in											"+"	Anytime	0.051 in				
+Trace		BottomCopper	914		502	921							0.025 in												
+Ellipse	Outline	TopSilkscreen	917	919			3.4375 in	1.8875 in	0.225 in	0.225 in			0.012 in	30°	300°										
+Line		TopSilkscreen	918	919			3.6478185 in	1.945637 in			3.6478185 in	2.055637 in	0.012 in												
+Group			919											180°			"LED8"	"Green LED T1 3/4 in, 5 mm"							
+Pad	SquareWithHole		920	919			3.6 in	2 in	0.065 in	0.065 in							"1"	"Cathode"				0.035 in			
+Pad			921	919			3.5 in	2 in	0.065 in	0.065 in							"2"	"Anode"				0.035 in			
+Pad	Circular	BottomCopper	952				1.2 in	0.3 in	0.08 in	0.08 in															
+Pad	Rectangular	BottomCopper	955				2.75 in	0.3 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	962				2.85 in	0.3 in	0.08 in	0.08 in															
+Trace		BottomCopper	966		264	228							0.03 in												
+Trace		BottomCopper	967		228	515							0.03 in												
+Pad	Rectangular	BottomCopper	977				1.45 in	0.8 in	0.08 in	0.08 in															
+Pad	Circular	BottomCopper	983				1.55 in	0.8 in	0.08 in	0.08 in															
+Point		BottomCopper	984				2.6 in	0.3 in																	
+Trace		BottomCopper	985		984	112							0.03 in												
+Trace		BottomCopper	986		984	264							0.03 in												
+Point		BottomCopper	987				3.275 in	2.05 in																	
+Trace		BottomCopper	988		987	230							0.025 in												
+Point		BottomCopper	994				1.4625 in	1.8 in																	
+Trace		BottomCopper	995		994	87							0.02 in												
+Text		TopSilkscreen	996	1012			0.4625 in	0.825 in											"mm"	Anytime	0.0595 in				
+Text		TopSilkscreen	998	1012			7.8425 mm	17.28 mm											"+"	Anytime	0.0595 in				
+Pad	Circular	BottomCopper	999	1012			0.5056102 in	0.6311024 in	0.08 in	0.08 in															
+Text		TopSilkscreen	1000	1012			0.442676 in	0.538354 in											"3.5"	Anytime	0.0595 in				
+Pad			1002	1012			12.8735893 mm	16.0299998 mm	0.056 in	0.056 in							"-"					0.029 in			
+Pad			1003	1012			12.3425 mm	0.7 in	0.056 in	0.056 in							"-"					0.029 in			
+Pad	Circular	BottomCopper	1004	1012			0.4859252 in	0.7 in	0.08 in	0.08 in															
+Pad			1005	1012			14.8425 mm	0.7 in	0.056 in	0.056 in							"-"					0.029 in			
+Pad	SquareWithHole		1006	1012			0.3875 in	0.7 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad	Rectangular	BottomCopper	1007	1012			0.3875 in	0.7 in	0.08 in	2.032 mm															
+Pad	Circular	BottomCopper	1008	1012			0.5843504 in	0.7 in	0.08 in	0.08 in															
+Ellipse	Outline	TopSilkscreen	1009	1012			0.2890748 in	0.5031496 in	10 mm	10 mm			0.012 in	0°	360°										
+Text		TopSilkscreen	1010	1012			0.4250666 in	0.7474208 in											"2.5"	Anytime	0.0595 in				
+Text		TopSilkscreen	1011	1012			0.6125 in	0.75 in											"5"	Anytime	0.0595 in				
+Group			1012														"C1"	"≥100 µF 16 WV"	"Bulk power supply capacitor"						
+Point		TopCopper	1015				0.3 in	0.6125 in																	
+Trace		TopCopper	1016		1015	1017							0.03 in												
+Point		TopCopper	1017				0.3 in	0.7875 in																	
+Trace		TopCopper	1018		1017	311							0.03 in												
+Trace		BottomCopper	1020		1005	1003							0.04 in												
+Trace		BottomCopper	1022		1003	1002							0.04 in												
+Trace		BottomCopper	1024		1002	289							0.04 in												
+Point		BottomCopper	1025				0.4125 in	0.8 in																	
+Trace		BottomCopper	1026		1006	1025							0.04 in												
+Trace		BottomCopper	1028		1025	694							0.04 in												
+Text	Bold	TopSilkscreen	1029				0.6375 in	0.675 in											"-"	Anytime	0.051 in				
+Line		TopSilkscreen	1050	1057			2.175 in	1.35 in			2.425 in	1.35 in	0.012 in												
+Ellipse	Outline	TopSilkscreen	1051	1057			2.15 in	1.35 in	0.05 in	0.1 in			0.012 in	90°	180°										
+Ellipse	Outline	TopSilkscreen	1052	1057			2.4 in	1.35 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Pad	SquareWithHole		1053	1057			2.2 in	1.4 in	0.056 in	0.056 in							"+"					0.029 in			
+Pad			1054	1057			2.4 in	1.4 in	0.056 in	0.056 in							"-"					0.029 in			
+Line		TopSilkscreen	1055	1057			2.175 in	1.45 in			2.425 in	1.45 in	0.012 in												
+Text		TopSilkscreen	1056	1057			2.1567108 in	1.3880706 in											"+"	Tiny	0.0595 in				
+Group			1057														"C2"	"0.1 µF"							
+Pad			1058	1057			2.3 in	1.4 in	0.056 in	0.056 in												0.029 in			
+Ellipse	Outline	TopSilkscreen	1059	1057			2.3 in	1.35 in	0.05 in	0.1 in			0.012 in	270°	180°										
+Trace		BottomCopper	1063		1090	1064							0.04 in												
+Point		BottomCopper	1064				2.3 in	1.2 in																	
+Trace		BottomCopper	1065		1064	1053							0.04 in												
+Trace		BottomCopper	1067		19	1064							0.04 in												
+Trace		BottomCopper	1069		300	1054							0.04 in												
+Trace		BottomCopper	1071		1054	1058							0.04 in												
+Text		TopSilkscreen	1072				2.675 in	1.7375 in											"v5.3"	Anytime	0.068 in				
+Point		BottomCopper	1073				3.25 in	0.8 in																	
+Trace		BottomCopper	1074		1073	257							0.04 in												
+Trace		BottomCopper	1075		748	28							0.03 in												
+Group			1076														"Q7"	"2N2907A TO-92"	"PNP transistor"					1	
+Pad	SquareWithHole		1077	1076			1.2 in	1.2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in			
+Pad			1078	1076			1.3 in	1.2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in			
+Pad			1079	1076			1.4 in	1.2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in			
+Ellipse	Outline	TopSilkscreen	1080	1076			1.1550585 in	1.111 in	0.285 in	0.15 in			0.012 in	0°	180°									1	
+Line		TopSilkscreen	1081	1076			1.4400585 in	1.241 in			1.1550585 in	1.241 in	0.012 in											1	
+Line		TopSilkscreen	1082	1076			1.4400585 in	1.241 in			1.4400585 in	1.189 in	0.012 in											1	
+Line		TopSilkscreen	1083	1076			1.1550585 in	1.2405501 in			1.1550585 in	1.1885501 in	0.012 in											1	
+Group			1089														"Q8"	"2N2907A TO-92"	"PNP transistor"					2	
+Pad	SquareWithHole		1090	1089			2.4 in	1.2 in	0.056 in	0.056 in							"1"	"Emitter"				0.029 in		1	
+Pad			1091	1089			2.5 in	1.2 in	0.056 in	0.056 in							"2"	"Base"				0.029 in		1	
+Pad			1092	1089			2.6 in	1.2 in	0.056 in	0.056 in							"3"	"Collector"				0.029 in		1	
+Ellipse	Outline	TopSilkscreen	1093	1089			2.3550585 in	1.111 in	0.285 in	0.15 in			0.012 in	0°	180°									2	
+Line		TopSilkscreen	1094	1089			2.6400585 in	1.241 in			2.3550585 in	1.241 in	0.012 in											2	
+Line		TopSilkscreen	1095	1089			2.6400585 in	1.241 in			2.6400585 in	1.189 in	0.012 in											2	
+Line		TopSilkscreen	1096	1089			2.3550585 in	1.2405501 in			2.3550585 in	1.1885501 in	0.012 in											2	
+Pad	Circular	BottomCopper	1097				2.05 in	0.3 in	0.08 in	0.08 in														2	
